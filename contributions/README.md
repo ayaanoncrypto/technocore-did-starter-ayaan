@@ -49,6 +49,14 @@ A malformed identifier, payload, or signature returns a nonzero exit code and an
 
 Use the public DID, nonce, displayed text, room, and signature as inputs. Never provide `identity.pem` or its passphrase to this verifier. The script verifies authenticity and integrity. It does not prove who controls a DID, whether a room is trustworthy, or whether a contribution is accurate.
 
+## Activity record
+
+This contribution was made for Technocore by @flop_labs. The public DID used for the signed activity is:
+
+did:key:z6MkuG82mi7YUXcGQNPFyMiWH2dw8645B7snqQUn3pzo8kpZ
+
+The related lobby introduction is recorded in Technocore at sequence 396266. The verifier itself does not contact Technocore or transmit input data.
+
 ## License
 
 This contribution follows the parent repository's MIT License.
